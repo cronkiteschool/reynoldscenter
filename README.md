@@ -96,11 +96,11 @@ leave at defaults
 
 ##### General
 * Set Last-Modified header: Enabled
-* Set expires header: Enabled
+* Set expires header: Disabled
 * Set cache control header: Enabled
 * Set entity tag (eTag): Enabled
 * Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Disabled
+* Enable HTTP (gzip) compression: Enabled
 
 ##### CSS & JS
 * Set Last-Modified header: Enabled
@@ -110,14 +110,14 @@ leave at defaults
 * Cache Control policy: cache with max-age
 * Set entity tag (eTag): Enabled
 * Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Disabled
+* Enable HTTP (gzip) compression: Enabled
 
 ##### HTML & XML
 * Set Last-Modified header: Enabled
-* Set expires header: Enabled
+* Set expires header: Disabled
 * Expires header lifetime: 3600
 * Set cache control header: Enabled
-* Cache Control policy: cache with max-age
+* Cache Control policy: cache with max-age and validation
 * Set entity tag (eTag): Enabled
 * Set W3 Total Cache header: Disabled
 * Enable HTTP (gzip) compression: Disabled
@@ -130,5 +130,5 @@ leave at defaults
 * Cache Control policy: cache with max-age
 * Set entity tag (eTag): Enabled
 * Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Disabled
+* Enable HTTP (gzip) compression: Enabled
 
