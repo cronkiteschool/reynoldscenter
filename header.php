@@ -33,23 +33,7 @@
 		<!-- Title -->
 
 		<title>
-
-			<?php
-
-				if ( is_single() ) { single_post_title(); print ' | '; bloginfo('name'); }      
-
-				elseif ( is_home() || is_front_page() ) { bloginfo('name'); if(get_bloginfo('description')) { print ' | '; bloginfo('description'); } }
-
-				elseif ( is_page() ) { single_post_title(''); if(get_bloginfo('description')) { print ' | '; bloginfo('description'); } }
-
-				elseif ( is_search() ) { bloginfo('name'); print ' | Search results ' . esc_html($s); }
-
-				elseif ( is_404() ) { bloginfo('name'); print ' | Page not found'; }
-
-				else { bloginfo('name'); print ' | '; wp_title(''); }
-
-			?>
-
+			<?php wp_title(''); ?>
 		</title>
 
 
