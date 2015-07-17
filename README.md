@@ -63,6 +63,79 @@ Compress the following:
   text/html text/plain text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/x-httpd-php application/x-httpd-fastphp
 ```
 
+### Fraction Orange Theme Settings
+
+#### General
+
+##### General
+* Header Logo Image: https://businessjournalism.org/wp-content/uploads/2015/01/Reynolds-Logo-e1433896827232.png
+* Favicon: https://businessjournalism.org/wp-content/uploads/2015/01/favicon.ico
+* Show Search in Menu: Enable
+
+##### Blog
+* Blog Page Title in Singel News: Disable
+* Unit Settings:
+	* Show thumbnails in blog post list: Enable
+	* Show "no image" thumbnail, when no thumbnail is available: Disable
+* Show thumbnail in open post/page: Show
+* Show Post Author In Single Post: Show
+* Show Post Date In Single Post: Show
+* Show Post Categories In Single Post: Hide
+* Show "About Author" In Single Post: Hide
+* Show "Similar News" In Single Post: Hide
+* Show Share Buttons: Hide
+* Show Post Comment Count: Custom
+
+##### Gallery/Portfolio
+* Gallery Settin gs
+	* Items per gallery page: 6
+* Portfolio Settings
+	* Items per gallery page: 6
+* Show "Similar Posts" In Single Galley: Hide
+* Show "Similar Posts" In Single Portfolio: Hide
+
+##### Contact/Footer
+* Twitter Account: Blank
+* Contact Information: Blank
+* Footer CopyRight text: `© 2015 Copyright <b>Donald W. Reynolds National Center for Business Journalism</b>. All Rights reserved.`
+
+##### Banners
+* Blog Page Banner: Disable
+* Default Single Post Banner: Disable
+* Select Pop Up Banner Type: Off
+* Banner Settings: Defaults
+
+#### Style Settings
+
+##### Font Style
+* Main font family: Open Sans
+* Titles font family: Montserrat
+* Article titles font family: PT Sans Narrow
+* Main font size: 14
+* Font Character Sets: Disable all
+
+##### Page Colors/Style
+* Default Category/News page Color: 006738
+* Main color scheme: 006738
+* Body Backgrounds (only boxed view): Pattern
+	* Patterns: Texture 6
+
+##### Layout
+* Enable Responsive: Enable
+* Fixed Menu: Disable
+* Page Layout: Boxed
+* Blog Post Images/Video/Audio Size: Small Images
+
+####Sidebar Settings
+* Main Sidebar Position: Custom
+* Second Sidebar Position: Custom
+* Show The Sticky Sidebar Under Main Sidebar: Disable
+* Add Sidebar: None
+* Sidebar Sequence:
+	1. home
+	2. inner
+	3. jobs
+
 ### W3 Total Cache Settings
 
 #### General Settings
