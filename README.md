@@ -77,7 +77,7 @@ Compress the following:
 * Unit Settings:
 	* Show thumbnails in blog post list: Enable
 	* Show "no image" thumbnail, when no thumbnail is available: Disable
-* Show thumbnail in open post/page: Show
+* Show thumbnail in open post/page: Hide
 * Show Post Author In Single Post: Show
 * Show Post Date In Single Post: Show
 * Show Post Categories In Single Post: Hide
@@ -87,7 +87,7 @@ Compress the following:
 * Show Post Comment Count: Custom
 
 ##### Gallery/Portfolio
-* Gallery Settin gs
+* Gallery Settings
 	* Items per gallery page: 6
 * Portfolio Settings
 	* Items per gallery page: 6
@@ -127,7 +127,7 @@ Compress the following:
 * Blog Post Images/Video/Audio Size: Small Images
 
 ####Sidebar Settings
-* Main Sidebar Position: Custom
+* Main Sidebar Position: Right
 * Second Sidebar Position: Custom
 * Show The Sticky Sidebar Under Main Sidebar: Disable
 * Add Sidebar: None
