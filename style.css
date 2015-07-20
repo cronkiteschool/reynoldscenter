@@ -9,11 +9,22 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
-.header .header-right {background: none repeat scroll 0 0 #000 !important;}
-.header .header-left { background: none repeat scroll 0 0 #006738 !important;}
-.header .header-logo { margin: 11px 17px 10px 11px;padding-bottom: 12px;}
+.header .header-right {
+	background: none repeat scroll 0 0 #000 !important;
+}
 
-.header .under-menu {  line-height: 58px; background: none repeat scroll 0 0 rgba(255, 255, 255, 0.25); }
+.header .header-left {
+	background: none repeat scroll 0 0 #006738 !important;
+}
+.header .header-logo {
+	margin: 11px 17px 10px 11px;
+	padding-bottom: 12px;
+}
+
+.header .under-menu {
+	line-height: 58px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.25);
+}
 .header .under-menu li > ul > li > a {
     background: none repeat scroll 0 0 #f1f1f2;
     border-bottom: 1px dotted #d3d3d3;
@@ -22,17 +33,34 @@
     line-height: 2.75em;
 }
 
-   
-.article-content h3, .article-content h4, .article-content h5 {color:#00673f8; font-weight:normal;}
-.article-content h6 {color:#444444; font-weight:normal;}
+.article-content h3,
+.article-content h4,
+.article-content h5 {
+	color:#00673f8;
+	font-weight:normal;
+}
+.article-content h6 {
+	color:#444444;
+	font-weight:normal;
+}
 
-.main-content a {color:#3c98ca; font-weight: normal;}
+.main-content a {
+	color:#3c98ca;
+	font-weight: normal;
+}
 
-.main-menu li > ul {padding-bottom:0px;}
+.main-menu li > ul {
+	padding-bottom:0px;
+}
 
-.main-menu > ul > li > a {font-size: 1.1em;}
+.main-menu > ul > li > a {
+	font-size: 1.1em;
+}
 
-.header .under-menu li a {font-size: 0.75em; padding: 0 17px;}
+.header .under-menu li a {
+	font-size: 0.75em; 
+	padding: 0 17px;
+}
 
 .main-menu > ul > li:not(.has-ot-mega-menu) > ul li > a {
     background: none repeat scroll 0 0 #f1f1f2;
@@ -40,28 +68,64 @@
     color: #006738;
 }
 
-.main-menu > ul > li:not(.has-pt-mega-menu) li:hover > a {background: #006738;}
+.main-menu > ul > li:not(.has-pt-mega-menu) li:hover > a {
+	background: #006738;
+}
 
-.header .under-menu li > ul li:hover > a {background:#006738;}
+.header .under-menu li > ul li:hover > a {
+	background:#006738;
+}
 
-.owl-theme .owl-controls.clickable .owl-buttons div.owl-next:after {background:#006738;}
-.owl-theme .owl-controls.clickable .owl-buttons div.owl-prev:after {background:#006738;}
+.owl-theme .owl-controls.clickable .owl-buttons div.owl-next:after {
+	background:#006738;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div.owl-prev:after {
+	background:#006738;
+}
 
-.main-menu > ul > li:not(.has-ot-mega-menu) li a, .main-menu > ul > li > a:hover { background: #f1f1f2; color:#006738 !important;}
-.main-menu > ul > li > a:active { background: #006738 !important; color:#FFF !important;}
+.main-menu > ul > li:not(.has-ot-mega-menu) li a, 
+.main-menu > ul > li > a:hover {
+	background: #f1f1f2;
+	color:#006738 !important;
+}
+.main-menu > ul > li > a:active {
+	background: #006738 !important;
+	color:#FFF !important;
+}
 
-.news {padding-bottom: 13px; padding-top: 9px;}
-.news_title { font-size: 1.1em; color:#006738;}
+.news {
+	padding-bottom: 13px;
+	padding-top: 9px;
+}
+.news_title {
+	font-size: 1.1em;
+	color:#006738;
+}
 
-.footer .widget > h3 {font-size: 1.3em;}
+.footer .widget > h3 {
+	font-size: 1.3em;
+}
 
-input#bp-login-widget-submit, .product a.button, .buttons a.button, input.button, button.button {
-    background: none repeat scroll 0 0 #006738;}
-
-.footer .footer-widgets {color: #fff;}
-
-.pagination .page-numbers.current, .pagination .page-numbers:hover {
+input#bp-login-widget-submit,
+.product a.button,
+.buttons a.button,
+input.button,
+button.button {
     background: none repeat scroll 0 0 #006738;
+}
 
-.tribe-events-list .type-tribe_events h2 {color: #006738 !important;}
-.footer-copyright .right a{color:#006738;}
+.footer .footer-widgets {
+	color: #fff;
+}
+
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover {
+    background: none repeat scroll 0 0 #006738;
+}
+
+.tribe-events-list .type-tribe_events h2 {
+	color: #006738 !important;
+}
+.footer-copyright .right a {
+	color:#006738;
+}

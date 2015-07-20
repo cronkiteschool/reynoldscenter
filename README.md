@@ -12,9 +12,9 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
     * License: GNU General Public License
 1. Above The Fold Optimization
     * Link: https://wordpress.org/plugins/above-the-fold-optimization/
-1. Autoptimize
-    * Link: https://wordpress.org/plugins/autoptimize/
-    * License: GPLv2 or later
+1. Merge + Minify + Refresh
+	* Link: https://wordpress.org/plugins/merge-minify-refresh/
+	* License: GPLv2 or later
 1. EWWW Image Optimizer
     * Link: http://wordpress.org/extend/plugins/ewww-image-optimizer/
     * License: GPLv3
@@ -37,12 +37,6 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 1. Related
     * Link: https://wordpress.org/plugins/related/
     * License: GPLv2 or later
-1. Simple 301 Redirects
-    * Link: https://wordpress.org/plugins/simple-301-redirects/
-    * License: GPLv2 or later
-1. Simple Share Buttons Adder
-    * Link: https://wordpress.org/plugins/simple-share-buttons-adder/
-    * License: GPLv2
 1. The Events Calendar
     * Link: https://wordpress.org/plugins/the-events-calendar/
     * License: GPLv2 or later
@@ -54,14 +48,13 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
     * License: GPL3
 1. WPBakery Visual Composer
     * Link: http://vc.wpbakery.com
+1. Broken Link Checker
+	* Link: http://w-shadow.com/blog/2007/08/05/broken-link-checker-for-wordpress/
+1. Redirection
+	* http://urbangiraffe.com/plugins/redirection/
+    * License: GPLv3
 
 ## Site configuration
-
-### HTTP compression
-Compress the following:
-```
-  text/html text/plain text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/x-httpd-php application/x-httpd-fastphp
-```
 
 ### Fraction Orange Theme Settings
 
