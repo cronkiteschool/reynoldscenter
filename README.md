@@ -1,4 +1,4 @@
-Reynolds Center Site WordPress theme
+Reynolds Center WordPress Theme
 ======
 
 Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center for Business Journalism site.
@@ -10,14 +10,10 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 1. Fraction Premium Theme By Orange Themes
     * Link: http://themeforest.net/item/fraction-multipurpose-news-magazine-theme/8655281
     * License: GNU General Public License
-1. Above The Fold Optimization
-    * Link: https://wordpress.org/plugins/above-the-fold-optimization/
-1. Merge + Minify + Refresh
-	* Link: https://wordpress.org/plugins/merge-minify-refresh/
-	* License: GPLv2 or later
-1. EWWW Image Optimizer
-    * Link: http://wordpress.org/extend/plugins/ewww-image-optimizer/
-    * License: GPLv3
+1. WP Optimize By xTraffic
+    * Link: https://wordpress.org/plugins/wp-optimize-by-xtraffic/
+1. WP Optimize Speed By xTraffic
+	* Link: https://wordpress.org/plugins/wp-optimize-speed-by-xtraffic/
 1. GoSquared
     * Link: https://wordpress.org/plugins/gosquared-livestats/
     * License: GPL3
@@ -40,9 +36,6 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 1. The Events Calendar
     * Link: https://wordpress.org/plugins/the-events-calendar/
     * License: GPLv2 or later
-1. W3 Total Cache
-    * Link: https://wordpress.org/plugins/w3-total-cache/
-     * License: GPLv2 or later
 1. WordPress SEO by Yoast
     * Link: https://wordpress.org/plugins/wordpress-seo/
     * License: GPL3
@@ -129,72 +122,77 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 	2. inner
 	3. jobs
 
-### W3 Total Cache Settings
+### WP Optimize By xTraffic Settings
 
-#### General Settings
-* Page Cache: Enabled
-* Page Cache Method: Disk Enhance
-* Minify: Disable (Using Autoptimize plugin)
-* Database Cache: Enabled
-* Database Cache Method: Memcached
-* Object Cache: Enable
-* Object Cache Method: Memcached
-* Browser Cache: Enable
-
-#### Page Cache Settings
-* Cache posts page: Enable
-* Don't cache front page: Disable
-* Cache feeds: site, categories, tags, comments: Enable
-* Cache SSL (https) requests: Disable
-* Cache URIs with query string variables: Disable
-* Cache 404 (not found) pages: Disable
-* Cache requests only for businessjournalism.org site address: Disable
-* Don't cache pages for logged in users: Enable
-* Automatically prime the page cache: Disable
-
-#### Database Cache Settings
+#### Optimize Links
 leave at defaults
 
-#### Object Cache Settings
+#### Optimize Images
+
+##### Optimize ALT/TITLE
 leave at defaults
 
-#### Browser Cache Settings
+##### Optimize Image File
+* Enable
+* Images Lazy Load: Enable
+* Images Lazy Load Front Page: Enable
+* Miminum Images's size: 150
+* Maximum Images's size: 0
+* Automatically resize the images: Enable
+* WATERMARK: Disable
+* Optimize Image Quality: 80
+* Rename Image Filename: Blank
+* Performance: The maximum number of files: 1
+* Enable to reprocess files: Enable
+* Enable to remove old files: Enable
 
-##### General
-* Set Last-Modified header: Enabled
-* Set expires header: Disabled
-* Set cache control header: Enabled
-* Set entity tag (eTag): Enabled
-* Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Enabled
+#### Optimize Traffic
+leave at defaults
 
-##### CSS & JS
-* Set Last-Modified header: Enabled
-* Set expires header: Enabled
-* Expires header lifetime: 604800
-* Set cache control header: Enabled
-* Cache Control policy: cache with max-age
-* Set entity tag (eTag): Enabled
-* Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Enabled
+#### Header & Footer
+leave at defaults
 
-##### HTML & XML
-* Set Last-Modified header: Enabled
-* Set expires header: Disabled
-* Expires header lifetime: 3600
-* Set cache control header: Enabled
-* Cache Control policy: cache with max-age and validation
-* Set entity tag (eTag): Enabled
-* Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Disabled
+#### Optimize Speed
 
-##### Media & Other Files
-* Set Last-Modified header: Enabled
-* Set expires header: Enabled
-* Expires header lifetime: 604800
-* Set cache control header: Enabled
-* Cache Control policy: cache with max-age
-* Set entity tag (eTag): Enabled
-* Set W3 Total Cache header: Disabled
-* Enable HTTP (gzip) compression: Enabled
+##### Optimize Cache
+* Enable Optimize Cache: Enable
+* Enable Cache Front Page: Enable
+* Enable Cache Feed: Enable
+* Enable Browser Cache: Enable
+* Enable Database Cache: Enable
+* Use Memcache : Enable
+* Enable Cache SSL: Enable
+* Enable Cache For Logged Users: Disable
+* Enable Prebuild Cache: Disable
+* Cache Timeout: 21600
+* Exclude url: /cart/,/checkout/
+* Exclude cookie: xtraffic_no_cache=on,xtraffic_dont_cache
+
+##### Optimize Javascript
+* Enable Optimize Javascript: Enable
+* Enable Combine Javascript: Disable
+* Enable Asynchronous Javascript Loading: Disable
+* Exclude External Javascript File: Disable
+* Exclude Inline Javascript Code: Disable
+* Exclude: alexa.com,
+
+##### Optimize CSS
+* Enable Optimize CSS: Enable
+* Enable Combine CSS: Disable
+* Enable Minify CSS: Enable
+* Enable Asynchronous CSS Loading: Disable
+* Exclude External CSS Files: Disable
+* Exclude Inline CSS Code: Disable
+* Exclude: Blank
+
+##### Optimize HTML
+* Enable Optimize HTML: Enable
+* Enable Minify HTML: Enable
+
+##### CDN
+leave at defaults
+
+##### Memcache
+leave at defaults
+
 
