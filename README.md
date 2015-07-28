@@ -134,8 +134,8 @@ leave at defaults
 
 ##### Optimize Image File
 * Enable
-* Images Lazy Load: Enable
-* Images Lazy Load Front Page: Enable
+* Images Lazy Load: Disable
+* Images Lazy Load Front Page: Disable
 * Miminum Images's size: 150
 * Maximum Images's size: 0
 * Automatically resize the images: Enable
@@ -145,7 +145,7 @@ leave at defaults
 * Performance: The maximum number of files: 1
 * Enable to reprocess files: Enable
 * Enable to remove old files: Enable
-
+ 
 #### Optimize Traffic
 leave at defaults
 
@@ -171,10 +171,11 @@ leave at defaults
 ##### Optimize Javascript
 * Enable Optimize Javascript: Enable
 * Enable Combine Javascript: Disable
+* Enable Minify Javascript: Enable
 * Enable Asynchronous Javascript Loading: Disable
 * Exclude External Javascript File: Disable
-* Exclude Inline Javascript Code: Disable
-* Exclude: alexa.com,
+* Exclude Inline Javascript Code: Enable
+* Exclude: alexa.com,jquery.js,doifd-form.js,popups,itunes-lookup-widget,platform.linkedin.com
 
 ##### Optimize CSS
 * Enable Optimize CSS: Enable
