@@ -164,8 +164,8 @@ leave at defaults
 * Enable Cache SSL: Enable
 * Enable Cache For Logged Users: Disable
 * Enable Prebuild Cache: Disable
-* Cache Timeout: 21600
-* Exclude url: /cart/,/checkout/
+* Cache Timeout: 3600
+* Exclude url:
 * Exclude cookie: xtraffic_no_cache=on,xtraffic_dont_cache
 
 ##### Optimize Javascript

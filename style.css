@@ -127,6 +127,6 @@ button.button {
 .tribe-events-list .type-tribe_events h2 {
 	color: #006738 !important;
 }
-.footer-copyright .right a {
-	color:#006738;
+.footer .footer-widgets .last {
+	float: right;
 }

@@ -145,13 +145,13 @@
 		<!-- Twitter Code for Reynolds Website -->
 		<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
 		<script type="text/javascript">
-window.addEventListener("load", function() {
-    document.getElementById('twitter-wjs').addEventListener('load', function() {
-        twttr.ready(function (twttr) {
-			twttr.conversion.trackPid('l5jw5');        
-		});
-    }, false);
-}, false);
+			window.addEventListener("load", function() {
+				document.getElementById('twitter-wjs').addEventListener('load', function() {
+					twttr.ready(function (twttr) {
+						twttr.conversion.trackPid('l5jw5'); 
+					});
+				}, false);
+			}, false);
 		</script>
 		<noscript>
 			<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5jw5&p_id=Twitter" />
