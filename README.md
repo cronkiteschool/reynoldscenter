@@ -4,22 +4,24 @@ Reynolds Center WordPress Theme
 Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center for Business Journalism site.
 
 ## Requirements
-1. [Fraction Premium Theme By Orange Themes](http://themeforest.net/item/fraction-multipurpose-news-magazine-theme/8655281) - the theme must be installed into the folder name: **fraction-theme**
+1. [Fraction Premium Theme By Orange Themes](http://themeforest.net/item/fraction-multipurpose-news-magazine-theme/8655281)
+- the theme must be installed into the folder name: **fraction-theme**
 
 ## Resources
 1. Fraction Premium Theme By Orange Themes
     * Link: http://themeforest.net/item/fraction-multipurpose-news-magazine-theme/8655281
     * License: GNU General Public License
-1. WP Optimize By xTraffic
-    * Link: https://wordpress.org/plugins/wp-optimize-by-xtraffic/
-1. WP Optimize Speed By xTraffic
-	* Link: https://wordpress.org/plugins/wp-optimize-speed-by-xtraffic/
+1. Above The Fold Optimization
+    * Link: https://wordpress.org/plugins/above-the-fold-optimization/
+1. Autoptimize
+    * Link: https://wordpress.org/plugins/autoptimize/
+    * License: GPLv2 or later
+1. Google Webfont Optimizer
+    * Link: https://wordpress.org/plugins/google-webfont-optimizer/
+    * License: GPLv2
 1. GoSquared
     * Link: https://wordpress.org/plugins/gosquared-livestats/
     * License: GPL3
-1. iTunes Lookup Widget
-    * Link: https://github.com/itok/itunes-lookup-widget
-    * License: GPLv2 or later
 1. NK Google Analytics
     * Link: https://wordpress.org/plugins/nk-google-analytics/
 1. Popups - WordPress Popup
@@ -35,6 +37,9 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
     * License: GPLv2 or later
 1. The Events Calendar
     * Link: https://wordpress.org/plugins/the-events-calendar/
+    * License: GPLv2 or later
+1. WP Super Cache
+    * Link: https://wordpress.org/plugins/wp-super-cache/
     * License: GPLv2 or later
 1. WordPress SEO by Yoast
     * Link: https://wordpress.org/plugins/wordpress-seo/
@@ -122,78 +127,99 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 	2. inner
 	3. jobs
 
-### WP Optimize By xTraffic Settings
+### Htaccess File
+Copy contents of `htaccess.txt` to site's `.htacess` file.
 
-#### Optimize Links
-leave at defaults
+### WP Super Cache Settings
 
-#### Optimize Images
+#### Easy
+* Caching: On
 
-##### Optimize ALT/TITLE
-leave at defaults
+#### Advanced
 
-##### Optimize Image File
-* Enable
-* Images Lazy Load: Disable
-* Images Lazy Load Front Page: Disable
-* Miminum Images's size: 150
-* Maximum Images's size: 0
-* Automatically resize the images: Enable
-* WATERMARK: Disable
-* Optimize Image Quality: 80
-* Rename Image Filename: Blank
-* Performance: The maximum number of files: 1
-* Enable to reprocess files: Enable
-* Enable to remove old files: Enable
+##### Caching
+* Cache hits to this website for quick access: Enable
+
+##### Miscellaneous
+* Use PHP to serve cache files: Enable
+* Compress pages ...: Enable
+* 304 Not Modified browser caching: Enable
+* Don’t cache pages for known users: Enable
+* Don’t cache pages with GET parameters: Disable
+* Make known users annonnymous ...: Disable
+* Cache rebuild: Enable
+* Proudly tell the world your server ...:Disable
+
+##### Advanced
+* Enable dynamic caching: Disable
+* Mobile device support: Disable
+* Remove UTF8/blog charset support ...: Disable
+*  Clear all cache files when a post or page is published or updated: Disable
+* Extra homepage checks: Enable
+* Only refresh current page when comments made: Enable
+* kAutomatically resize the images: Enable
+* List newest cached pages on this page: Disable
+* Coarse file locking: Disable
+* Late init: Disable
  
-#### Optimize Traffic
+##### Cache Location
 leave at defaults
 
-#### Header & Footer
-leave at defaults
-
-#### Optimize Speed
-
-##### Optimize Cache
-* Enable Optimize Cache: Enable
-* Enable Cache Front Page: Enable
-* Enable Cache Feed: Enable
-* Enable Browser Cache: Enable
-* Enable Database Cache: Enable
-* Use Memcache : Enable
-* Enable Cache SSL: Enable
-* Enable Cache For Logged Users: Disable
-* Enable Prebuild Cache: Disable
+##### Expiry Time & Garbage Collection
 * Cache Timeout: 3600
-* Exclude url:
-* Exclude cookie: xtraffic_no_cache=on,xtraffic_dont_cache
+* Timer: 600
+* Notification Emails: Disable
 
-##### Optimize Javascript
-* Enable Optimize Javascript: Enable
-* Enable Combine Javascript: Disable
-* Enable Minify Javascript: Enable
-* Enable Asynchronous Javascript Loading: Disable
-* Exclude External Javascript File: Disable
-* Exclude Inline Javascript Code: Enable
-* Exclude: alexa.com,jquery.js,doifd-form.js,popups,itunes-lookup-widget,platform.linkedin.com
-
-##### Optimize CSS
-* Enable Optimize CSS: Enable
-* Enable Combine CSS: Disable
-* Enable Minify CSS: Enable
-* Enable Asynchronous CSS Loading: Disable
-* Exclude External CSS Files: Disable
-* Exclude Inline CSS Code: Disable
-* Exclude: Blank
-
-##### Optimize HTML
-* Enable Optimize HTML: Enable
-* Enable Minify HTML: Enable
-
-##### CDN
+##### Accepted Filenames & Rejected URIs
 leave at defaults
 
-##### Memcache
+##### Rejected User Agents
 leave at defaults
 
+##### Lock Down
+* Disabled
 
+##### Directly Cached Files
+leave at defaults
+
+#### CDN
+leave at defaults
+
+#### Preload
+leave at defaults
+
+#### Plugins
+leave at defaults
+
+#### Debug
+leave at defaults
+
+### Autoptimize Settings
+
+#### HTML Options
+* Optimize HTML Code: Enable
+* Keep HTML comments: Enable
+
+#### JavaScript Options
+* Optimize JavaScript Code: Enable
+
+#### CSS Options
+* Optimize CSS Code: Enable
+* Generate data ...: Enable
+
+#### CDN Options
+leave at defaults
+
+### Above The Fold Optimization
+
+#### Critical Path CSS Settings
+* Inline CSS: see `critical-path.css`
+* Optimize CSS-delivery: Enable
+  - Enhanced loadCSS: Enable
+  - Position: Header
+  - Ignore List: Blank
+  - Remove List: Blank
+* Optimize Google Fonts: Enable
+* Localize Javascript: Enable
+  - Check all.
+* Debug-modus: Enable
