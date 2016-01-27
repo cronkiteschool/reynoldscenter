@@ -80,7 +80,7 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 ##### Contact/Footer
 * Twitter Account: **Blank**
 * Contact Information: **Blank**
-* Footer CopyRight text: **`© 2015 Copyright <b>Donald W. Reynolds National Center for Business Journalism</b>. All Rights reserved.`**
+* Footer CopyRight text: **`© 2016 Copyright <b>Donald W. Reynolds National Center for Business Journalism</b>. All Rights reserved.`**
 
 ##### Banners
 * Blog Page Banner: **Disable**
