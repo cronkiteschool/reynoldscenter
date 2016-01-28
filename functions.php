@@ -12,10 +12,10 @@
 	/* -------------------------------------------------------------------------*
 	 * 						SET DEFAULT VALUES BY THEME INSTALL					*
 	 * -------------------------------------------------------------------------*/
-	global $pagenow;
 
 	// with activate install options
-	if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
+	add_action('after_switch_theme', 'childtheme_setup_options');
+	function childtheme_setup_options () {
 		$theme_logo = CHILDTHEME_IMAGE_URL."logo.png";
 
 		$favicon = CHILDTHEME_IMAGE_URL."favicon.png";
