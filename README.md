@@ -47,6 +47,7 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 ## Site configuration
 
 ### Fraction Orange Theme Settings
+The following settings are automatically set upon activation.  An export of the settings is provided at `inc/fraction_export_management_panel.json`.
 
 #### General
 
