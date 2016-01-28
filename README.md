@@ -51,8 +51,8 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 #### General
 
 ##### General
-* Header Logo Image: **https://businessjournalism.org/wp-content/uploads/2015/01/Reynolds-Logo-e1433896827232.png**
-* Favicon: **https://businessjournalism.org/wp-content/uploads/2015/01/favicon.ico**
+* Header Logo Image: **http://businessjournalism.org/wp-content/themes/reynoldscenter/images/logo.png**
+* Favicon: **http://businessjournalism.org/wp-content/themes/reynoldscenter/images/favicon.png**
 * Show Search in Menu: **Enable**
 
 ##### Blog
@@ -113,7 +113,7 @@ Child Theme of Fraction Premium Theme for the Donald W. Reynolds National Center
 * Main Sidebar Position: **Right**
 * Second Sidebar Position: **Custom**
 * Show The Sticky Sidebar Under Main Sidebar: **Disable**
-* Add Sidebar: **None**
+* Add Sidebar: **Empty**
 * Sidebar Sequence:
 	1. **home**
 	2. **inner**
