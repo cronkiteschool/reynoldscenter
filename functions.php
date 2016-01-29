@@ -20,9 +20,11 @@
 
 		$favicon = CHILDTHEME_IMAGE_URL."favicon.png";
 		$copyright = '&copy; '.date("Y").' Copyright <b> Donald W. Reynolds National Center for Business Journalism</b>. All Rights reserved.';
+		$banner = '';
 
 		update_option(THEME_NAME.'_about_author', 'hide');
 		update_option(THEME_NAME.'_blog_banner', 'off');
+		update_option(THEME_NAME.'_blog_banner_code', $banner);
 		update_option(THEME_NAME.'_body_bg_type', 'pattern');
 		update_option(THEME_NAME.'_body_pattern', 'texture-6');
 		update_option(THEME_NAME.'_color_1', '006738');
@@ -39,6 +41,7 @@
 		update_option(THEME_NAME.'_portfolio_items', "6");
 		update_option(THEME_NAME.'_post_author_single', 'show');
 		update_option(THEME_NAME.'_post_banner', 'off');
+		update_option(THEME_NAME.'_post_banner_code', $banner);
 		update_option(THEME_NAME.'_post_category_single', 'hide');
 		update_option(THEME_NAME.'_post_comments_single', 'custom');
 		update_option(THEME_NAME.'_post_date_single', 'show');
