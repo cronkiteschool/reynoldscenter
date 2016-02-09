@@ -16,7 +16,7 @@
 	// with activate install options
 	add_action('after_switch_theme', 'childtheme_setup_options');
 	function childtheme_setup_options () {
-		$theme_logo = CHILDTHEME_IMAGE_URL."logo.png";
+		$theme_logo = CHILDTHEME_IMAGE_URL."reynolds_logo.png";
 
 		$favicon = CHILDTHEME_IMAGE_URL."favicon.png";
 		$copyright = '&copy; '.date("Y").' Copyright <b> Donald W. Reynolds National Center for Business Journalism</b>. All Rights reserved.';
