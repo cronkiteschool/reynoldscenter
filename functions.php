@@ -21,6 +21,18 @@ function reynoldscenter_load_scripts() {
 	wp_enqueue_script('menu-effect');
 }
 
+/**
+ * Enqueue the Child Theme styles.
+ *
+ * Hooked to the wp_enqueue_scripts action.
+ */
+add_action('wp_enqueue_scripts', 'reynoldscenter_load_styles');
+
+function reynoldscenter_load_styles() {
+	wp_register_style('menu-effect', get_stylesheet_directory_uri() . '/css/menu-effect.css' );
+	wp_enqueue_style('menu-effect');
+}
+
 	/* -------------------------------------------------------------------------*
 	 * 						SET DEFAULT VALUES BY THEME INSTALL					*
 	 * -------------------------------------------------------------------------*/
