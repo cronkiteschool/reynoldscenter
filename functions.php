@@ -9,6 +9,20 @@
 
 	define("CHILDTHEME_URL", get_stylesheet_directory_uri());
 	define("CHILDTHEME_IMAGE_URL",CHILDTHEME_URL."/images/");
+
+/*
+ * CUSTOM GLOBAL VARIABLES
+ */
+function reynoldscenter_global_vars() {
+
+    global $reynoldscenter;
+    $reynoldscenter = array(
+        'menu_effect'  => "effect-4",
+    );
+
+}
+
+add_action( 'parse_query', 'wtnerd_global_vars' );
 /**
  * Enqueue the Child Theme scripts.
  *
