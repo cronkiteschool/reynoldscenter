@@ -10,7 +10,7 @@
 	define("CHILDTHEME_URL", get_stylesheet_directory_uri());
 	define("CHILDTHEME_IMAGE_URL",CHILDTHEME_URL."/images/");
 /**
- * Enqueue the Parent Theme scripts.
+ * Enqueue the Child Theme scripts.
  *
  * Hooked to the wp_enqueue_scripts action.
  */
