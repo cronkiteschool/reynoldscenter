@@ -33,6 +33,31 @@ function reynoldscenter_load_styles() {
 	wp_enqueue_style('menu-effect');
 }
 
+/**
+ * Dequeue the Parent Theme scripts.
+ *
+ * Hooked to the wp_print_scripts action, with a late priority (100),
+ * so that it is after the script was enqueued.
+ */
+//add_action('wp_print_scripts', 'reynoldscenter_remove_scripts', 100);
+
+/*function reynoldscenter_remove_scripts(){*/
+    //wp_dequeue_script( 'dat-menu' );
+/*}*/
+
+/**
+ * Dequeue the Parent Theme styles.
+ *
+ * Hooked to the wp_enqueue_scripts action, with a late priority (100),
+ * so that it runs after the parent style was enqueued.
+ */
+//add_action('wp_enqueue_scripts', 'reynoldscenter_remove_styles', 100);
+
+/*function reynoldscenter_remove_styles(){*/
+    //wp_dequeue_style( 'dat-menu' );
+/*}*/
+
+
 	/* -------------------------------------------------------------------------*
 	 * 						SET DEFAULT VALUES BY THEME INSTALL					*
 	 * -------------------------------------------------------------------------*/
