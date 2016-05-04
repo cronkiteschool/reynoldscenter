@@ -1,0 +1,6 @@
+/*! menu-effect.js 1.0.0 by jleggat */
+
+.effect-4.dat-menu-animate .dat-menu-container {
+	-webkit-transform: translateZ(0px) translateX(80%) rotateY(0deg);
+	transform: translateZ(0px) translateX(80%) rotateY(0deg);
+}
