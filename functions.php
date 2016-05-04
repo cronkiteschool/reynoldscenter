@@ -22,7 +22,7 @@ function reynoldscenter_global_vars() {
 
 }
 
-add_action( 'parse_query', 'wtnerd_global_vars' );
+add_action( 'parse_query', 'reynoldscenter_global_vars' );
 /**
  * Enqueue the Child Theme scripts.
  *
