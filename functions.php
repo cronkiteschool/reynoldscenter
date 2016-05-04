@@ -13,6 +13,8 @@
 /*
  * CUSTOM GLOBAL VARIABLES
  */
+add_action( 'parse_query', 'reynoldscenter_global_vars' );
+
 function reynoldscenter_global_vars() {
 
     global $reynoldscenter;
@@ -22,7 +24,6 @@ function reynoldscenter_global_vars() {
 
 }
 
-add_action( 'parse_query', 'reynoldscenter_global_vars' );
 /**
  * Enqueue the Child Theme scripts.
  *
