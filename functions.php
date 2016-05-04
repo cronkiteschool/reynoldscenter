@@ -9,6 +9,18 @@
 
 	define("CHILDTHEME_URL", get_stylesheet_directory_uri());
 	define("CHILDTHEME_IMAGE_URL",CHILDTHEME_URL."/images/");
+/**
+ * Enqueue the Parent Theme scripts.
+ *
+ * Hooked to the wp_enqueue_scripts action.
+ */
+add_action('wp_enqueue_scripts', 'reynoldscenter_load_scripts');
+
+function reynoldscenter_load_scripts() {
+	wp_register_script('menu-effect', get_stylesheet_directory_uri() . '/js/menu-effect.js', array(), '1.0.0', false );
+	wp_enqueue_script('menu-effect');
+}
+
 	/* -------------------------------------------------------------------------*
 	 * 						SET DEFAULT VALUES BY THEME INSTALL					*
 	 * -------------------------------------------------------------------------*/
