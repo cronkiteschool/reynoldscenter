@@ -7,4 +7,4 @@
  */
 
 /* global Variable */
-var _datMenuEffect = "effect-3";
+var _datMenuEffect = "effect-4";
