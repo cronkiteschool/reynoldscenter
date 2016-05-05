@@ -10,7 +10,11 @@
 }
 
 .dat-menu-list {
-	top: 0;
+	top: 2em;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
+}
+
+li.dat-menu-header {
+	display: none;
 }
