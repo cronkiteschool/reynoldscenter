@@ -26,7 +26,7 @@ function reynoldscenter_load_scripts() {
  *
  * Hooked to the wp_enqueue_scripts action.
  */
-add_action('wp_enqueue_scripts', 'reynoldscenter_load_styles');
+add_action('wp_enqueue_scripts', 'reynoldscenter_load_styles', 100);
 
 function reynoldscenter_load_styles() {
 	wp_register_style('menu-effect', get_stylesheet_directory_uri() . '/css/menu-effect.css' );
