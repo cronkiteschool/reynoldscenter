@@ -72,6 +72,60 @@ function reynoldscenter_load_scripts() {
 		update_option(THEME_NAME.'_singlePostBlogTitle', 'off');
 		update_option(THEME_NAME.'_spotlight_color', '276197');
 		update_option(THEME_NAME.'_sticky_sidebar', "off");
+	}
 
+add_filter('the_content','add_my_content');
+function add_my_content($content) {
+$my_custom_text = '<p><br><br><font size=4em><font color=#186425><b>Want the best tips and story ideas from the Reynolds Center in your mailbox every month? Sign up for our monthly newsletter!</font></font></b></p>
+
+<style>
+.form-control {
+  border-radius: 4px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 1em;
+border: 2px solid #186425;
+color: #186425;
+}
+
+.form-submit {
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  font-size: 1em;
+background-color: #186425;
+  color: white;
+  border: 2px solid #186425;
+  cursor: pointer;
+}
+
+
+</style>
+
+<form action="https://cl.s7.exct.net/DEManager.aspx" name="subscribeForm" method="post">
+  <input type="hidden" name="_returnXML" value="0">
+  <input type="hidden" name="_clientID" value="518000787">
+  <input type="hidden" name="_deExternalKey" value="A4C03026-FB25-4EF3-8B7D-645E4886B71E">
+  <input type="hidden" name="_action" value="add/update">
+  <input type="hidden" name="_successURL" value="https://businessjournalism.org/signup/success/">
+  <input type="hidden" name="_errorURL" value="https://businessjournalism.org/signup/oops/">
+  <div class="form-group">
+<input class="form-control" id="firstNameInput" name="First name" required="" placeholder="First Name">
+<input class="form-control" id="lastNameInput" name="Last name" required="" placeholder="Last Name">    
+<input class="form-control" id="emailInput" name="Email" maxlength="255" placeholder="Email Address">
+  <button type="submit" class="form-submit btn btn-primary">Submit</button>
+  </div>
+  </form><br><br><br>
+'; //
+if(is_single() && !is_home()) {
+$content .= $my_custom_text;
+}
+return $content;
 }
 

@@ -779,6 +779,6 @@ return array(
 	),
 	'plugin.license_key' => '',
 	'plugin.type' => '',
-	'wordpress.home' => 'http://businessjournalism.org',
+	'wordpress.home' => 'https://businessjournalism.org',
 	'pgcache.bad_behavior_path' => '',
 );

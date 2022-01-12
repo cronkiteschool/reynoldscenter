@@ -1,6 +1,6 @@
 /*! menu-effect.js 1.0.0
  * https://github.com/csit/reynoldscenter
- * http://businessjournalism.org
+ * https://businessjournalism.org
  *
  * Copyright (c) 2016 jleggat
  * Available under the MIT license
